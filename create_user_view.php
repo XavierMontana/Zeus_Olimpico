@@ -10,7 +10,10 @@
     
     <div>
         <form action="create_user_proces.php" method="post">
+
             <h1>Crear cuenta</h1>
+
+            <img src="img/25231.png" width="100" height="100"><br>
 
             <label for="nombre">Nombre</label><br>
             <input type="text" name="nombre" id="nombre"><br>

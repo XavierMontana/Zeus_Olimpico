@@ -1,0 +1,88 @@
+body,html
+{
+    
+    background-color: rgb(34, 34, 34);
+    background-image: url(../img/3px-tile.png);
+    background-size: 250px 250px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(60, 162, 162);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.titulo
+{
+    text-align: center;
+    background: rgba(57, 57, 58);
+    margin: 20px;
+}
+
+.titabla
+{
+    margin-left: 20px;
+}
+
+.tabla
+{
+    border: 2px solid rgb(60, 162, 162);
+    background: rgba(57, 57, 58, 0.504);
+    padding: 10px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 4px 8px;
+}
+
+.prueba
+{
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+}
+
+td
+{
+    border: 2px solid rgb(60, 162, 162);
+}
+
+.boton
+{
+    width: 100%;
+    background: rgba(57, 57, 58, 0);
+    color: rgb(60, 162, 162);
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.boton:hover
+{
+    background: rgba(60, 162, 162, 0.200);
+    color: white;
+}
+
+.agregar
+{
+    width: 100%;
+    background: none;
+    color: rgb(60, 162, 162);
+    border: none;
+}
+
+.agregar:hover
+{
+    background: none;
+}
+
+.sn
+{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(60, 162, 162);
+}
+
+.pag
+{
+    color: rgb(60, 162, 162);
+}

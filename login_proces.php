@@ -30,6 +30,8 @@
 
         if($contador>0)
         {
+            session_start();
+            $_SESSION['usuario'] = $_POST['usuario'];
             header('Location:admin.php');
         }
 
